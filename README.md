@@ -1,5 +1,5 @@
 # T2Net
-# Task Transformer Network for Joint MRI Reconstruction and Super-Resolution
+# Task Transformer Network for Joint MRI Reconstruction and Super-Resolution International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI2021)
 
 ## Dependencies
 * numpy==1.18.5
