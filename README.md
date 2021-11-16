@@ -7,7 +7,7 @@
 * torchvision==0.8.1
 * torch==1.7.0
 * runstats==1.8.0
-* pytorch_lightning==1.2.8
+* pytorch_lightning==0.8.1
 * h5py==2.10.0
 * PyYAML==5.4
 
