@@ -13,12 +13,12 @@
 
 ## Data Prepare
 
-1. Download and decompress data from the link https://pan.baidu.com/s/1OdIoBwJy3GZB979JPBJS6w  password: qrlt 
+1. Download and decompress data from the link https://pan.baidu.com/s/1OdIoBwJy3GZB979JPBJS6w  Password: qrlt 
 
-2. transform .h5 format to .mat format
+2. Transform .h5 format to .mat format
 "python convertH5tomat.py --data_dir XXX/T2Net/h5"
 
-3. you can get the dir of as following:
+3. You can get the dir of as following:
 
 * h5
     - train
@@ -29,7 +29,7 @@
     - val
     - test
     
-4. set data_dir = 'XXX/T2Net/h5' at the line 4 of ixi_config.yaml
+4. Set data_dir = 'XXX/T2Net/h5' at the line 4 of ixi_config.yaml
 
 ## Train
 single gpu train:
