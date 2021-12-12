@@ -39,13 +39,6 @@
 `git clone https://github.com/chunmeifeng/T2Net.git`
 
 ## Train
-single gpu train:
-"python ixi_train_t2net.py"
-
-multi gpu train :
-you can change the 65th line in ixi_tain_t2net.py , set num_gpus = gpu number, then run
-"python ixi_train_t2net.py"
-
 
 **single gpu train**
 ```bash
@@ -58,12 +51,10 @@ you can change the 65th line in ixi_tain_t2net.py , set num_gpus = gpu number, t
 python ixi_train_t2net.py
 ```
 
-
 ## ⚡  **News！**
 * We have upload the mask file. 
 * Before our project, you need to  transform the .nii file to .mat file at first.  
 * We have provided the code of converting the .nii file to .mat file.
-
 
 ## Citation
 
