@@ -58,7 +58,7 @@ python ixi_train_t2net.py
 * We have provided the code of converting the .nii file to .mat file.
 
 
-Citation
+## Citation
 
 ```
 @inproceedings{feng2021T2Net,
