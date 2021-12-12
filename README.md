@@ -11,6 +11,47 @@
 * h5py==2.10.0
 * PyYAML==5.4
 
+## Data Prepare
+
+1. download and uncompress data from baidu disk https://pan.baidu.com/s/1OdIoBwJy3GZB979JPBJS6w  password: qrlt 
+
+2. convert h5 format to mat format
+"python convertH5tomat.py --data_dir XXX/T2Net/h5"
+
+3. you can get the dir of as following:
+
+* h5
+    - train
+    - val
+    - test
+ * mat
+    - train
+    - val
+    - test
+    
+4. set data_dir = 'XXX/T2Net/h5' at the line 4 of ixi_config.yaml
+
+## Train
+single gpu train:
+"python ixi_train_t2net.py"
+
+multi gpu train :
+you can change the 65th line in ixi_tain_t2net.py , set num_gpus = gpu number, then run
+"python ixi_train_t2net.py"
+
+
+**single gpu train**
+```bash
+python ixi_train_t2net.py
+```
+
+**multi gpu train**
+you can change the 65th line in ixi_tain_t2net.py , set num_gpus = gpu number, then run
+```bash
+python ixi_train_t2net.py
+```
+
+
 single gpu train:
 "python ixi_train_t2net.py"
 
