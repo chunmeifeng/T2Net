@@ -34,6 +34,10 @@
     
 4. Set data_dir = 'XXX/T2Net/h5' at the line 4 of ixi_config.yaml
 
+[[Training code --> T2Net](https://github.com/chunmeifeng/T2Net)]
+
+`git clone https://github.com/chunmeifeng/T2Net.git`
+
 ## Train
 single gpu train:
 "python ixi_train_t2net.py"
