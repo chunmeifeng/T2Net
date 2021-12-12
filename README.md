@@ -59,7 +59,7 @@ python ixi_train_t2net.py
 ```
 
 
-## ⚡  **News**
+## ⚡  **News！**
 * We have upload the mask file. 
 * Before our project, you need to  transform the .nii file to .mat file at first.  
 * We have provided the code of converting the .nii file to .mat file.
