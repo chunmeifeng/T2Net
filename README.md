@@ -1,6 +1,11 @@
 # T2Net
 # Task Transformer Network for Joint MRI Reconstruction and Super-Resolution (MICCAI 2021)
 
+# [Task Transformer Network for Joint MRI Reconstruction and Super-Resolution (MICCAI 2021)](https://arxiv.org/pdf/2106.06742.pdf)
+
+
+[[Paper](https://link.springer.com/chapter/10.1007%2F978-3-030-87231-1_30)][[Code](https://github.com/chunmeifeng/T2Net)]
+
 ## Dependencies
 * numpy==1.18.5
 * scikit_image==0.16.2
